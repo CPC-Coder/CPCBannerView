@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CPCBannerView"
-  s.version      = "1.0.0"
+  s.version      = "1.2.0"
   s.summary      = "无限轮播图-swift"
 
 
@@ -24,28 +24,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
 
-
-
-s.subspec 'Default' do |ss|
-
-ss.source_files = 'CPCBannerView/Default/*'
-ss.dependency 'CPCBannerView/CPCBaseBannerView.swift'
-
-end
-
-
-s.subspec 'Custom' do |ss|
-ss.source_files = 'CPCBannerView/Custom/*'
-ss.dependency 'CPCBannerView/CPCBaseBannerView.swift'
-
-
-end
-
-s.subspec 'TextOnly' do |ss|
-
-ss.source_files = 'CPCBannerView/TextOnly/*'
-ss.dependency 'CPCBannerView/CPCBaseBannerView.swift'
-end
 
 
 
