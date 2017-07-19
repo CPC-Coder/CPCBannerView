@@ -21,11 +21,11 @@
 
 
 import UIKit
-enum CPCBannerViewCustomType{
+public enum CPCBannerViewCustomType{
     case img,text,imgAndText
 }
 
-class CPCBannerViewCustom: CPCBaseBannerView {
+public class CPCBannerViewCustom: CPCBaseBannerView {
     
     var type : CPCBannerViewCustomType = .img{
         didSet{

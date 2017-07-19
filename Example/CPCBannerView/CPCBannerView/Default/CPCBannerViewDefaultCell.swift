@@ -21,7 +21,7 @@
 
 import UIKit
 
-class CPCBannerViewDefaultCell: UICollectionViewCell {
+public class CPCBannerViewDefaultCell: UICollectionViewCell {
     
     
     

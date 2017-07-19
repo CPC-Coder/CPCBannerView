@@ -21,7 +21,7 @@
 
 import UIKit
 
-class CPCBannerViewDefault: CPCBaseBannerView {
+public class CPCBannerViewDefault: CPCBaseBannerView {
     
     
     

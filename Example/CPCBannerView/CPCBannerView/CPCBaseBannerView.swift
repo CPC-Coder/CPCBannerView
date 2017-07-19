@@ -28,7 +28,7 @@ enum CPCPageControlPosition{
 
 
 //MARK: - *** 协议 ***
-@objc protocol CPCBannerViewDelegate:NSObjectProtocol {
+@objc public protocol CPCBannerViewDelegate:NSObjectProtocol {
     /**
      *  必须实现的代理方法, 返回总页数
      *
@@ -83,7 +83,7 @@ enum CPCPageControlPosition{
 
 
 //MARK: - *** CPCBaseBannerView ***
-class CPCBaseBannerView: UIView {
+public class CPCBaseBannerView: UIView {
 
     /** pageControl 的位置 默认为下面居中显示 */
     var pageControlPositon:CPCPageControlPosition = .bottomCenter{
