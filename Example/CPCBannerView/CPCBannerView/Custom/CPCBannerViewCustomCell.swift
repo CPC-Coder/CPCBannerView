@@ -22,7 +22,7 @@
 import UIKit
 
 
-class CPCBannerViewCustomCell: UICollectionViewCell {
+public class CPCBannerViewCustomCell: UICollectionViewCell {
     
     var type : CPCBannerViewCustomType = .img{
         didSet{
