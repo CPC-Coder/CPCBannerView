@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CPCBannerView"
-  s.version      = "1.3.0"
+  s.version      = "2.3.0"
   s.summary      = "无限轮播图-swift"
 
 
