@@ -22,7 +22,7 @@
 
 import UIKit
 
-class CPCBannerViewTextOnlyCell: UICollectionViewCell {
+public class CPCBannerViewTextOnlyCell: UICollectionViewCell {
     
     
     

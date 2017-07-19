@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CPCBannerViewDefaultModel: NSObject {
+public class CPCBannerViewDefaultModel: NSObject {
 
     var text : String?
     

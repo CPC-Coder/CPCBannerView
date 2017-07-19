@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CPCBannerViewTextOnly: CPCBaseBannerView {
+public class CPCBannerViewTextOnly: CPCBaseBannerView {
 
     let cellID = "CPCBannerViewTextOnlyCellID"
     
